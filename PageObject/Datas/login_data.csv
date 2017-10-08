@@ -1,0 +1,5 @@
+username,password,checkword
+admin,123456,admin
+admin,wrong,密码不正确
+ ,123456,用户名一栏为空
+admin, ,密码一栏为空

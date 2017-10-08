@@ -1,0 +1,47 @@
+1507370800373	geckodriver	INFO	Listening on 127.0.0.1:3337
+1507370802825	geckodriver::marionette	INFO	Starting browser D:\firefox\firefox.exe with args ["-marionette"]
+1507370806427	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox/omni.ja!/components/addonManager.js:65
+1507370808355	Marionette	INFO	Enabled via --marionette
+[GPU 8320] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1507370820781	Marionette	INFO	Listening on port 3343
+1507370820875	Marionette	INFO	Listening on port 3343
+1507370821501	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507370821668	Marionette	DEBUG	loaded listener.js
+1507370822169	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507370822658	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507370822659	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507370827784	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8088/wordpress/wp-login.php"
+1507370827827	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8088/wordpress/wp-login.php"
+1507370834077	Marionette	INFO	New connections will no longer be accepted
+1507371046312	geckodriver	INFO	Listening on 127.0.0.1:3506
+1507371048450	geckodriver::marionette	INFO	Starting browser D:\firefox\firefox.exe with args ["-marionette"]
+1507371050165	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox/omni.ja!/components/addonManager.js:65
+1507371051693	Marionette	INFO	Enabled via --marionette
+[GPU 1056] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8920] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1507371067367	Marionette	INFO	Listening on port 3512
+1507371067395	Marionette	INFO	Listening on port 3512
+1507371067768	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507371067812	Marionette	DEBUG	loaded listener.js
+1507371067884	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507371075361	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507371075362	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507371077503	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8088/wordpress/wp-login.php"
+1507371077509	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8088/wordpress/wp-login.php"
+1507371079846	Marionette	INFO	New connections will no longer be accepted
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1507371224004	geckodriver	INFO	Listening on 127.0.0.1:3751
+1507371226091	geckodriver::marionette	INFO	Starting browser D:\firefox\firefox.exe with args ["-marionette"]
+1507371227057	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox/omni.ja!/components/addonManager.js:65
+1507371228102	Marionette	INFO	Enabled via --marionette
+1507371236240	Marionette	INFO	Listening on port 3757
+1507371236241	Marionette	INFO	Listening on port 3757
+1507371237565	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507371237621	Marionette	DEBUG	loaded listener.js
+1507371237654	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507371238078	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507371238078	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507371240827	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8088/wordpress/wp-login.php"
+1507371240829	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8088/wordpress/wp-login.php"
+1507371243237	Marionette	INFO	New connections will no longer be accepted
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
