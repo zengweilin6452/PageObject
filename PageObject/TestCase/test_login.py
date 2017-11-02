@@ -24,7 +24,7 @@ class TestLogin(unittest.TestCase):
         file.close()
 
         cls.driver = webdriver.Chrome()
-        cls.url = '******************************'
+        cls.url = 'http://******************************'
         cls.loginPage = LoginPage(cls.driver, cls.url)
         cls.loginPage.open_url()
 
