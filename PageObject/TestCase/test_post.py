@@ -65,6 +65,5 @@ class TestPost(unittest.TestCase):
         actu_text = self.postPage.actual_text()
         self.assertIn(self.data[3][2], actu_text)
 
-if __name__ == "__main__":
-    unittest.main()
+
 
