@@ -18,13 +18,13 @@ from selenium import webdriver
 class TestLogin(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        file = open(r'E:/python/PageObject/Datas/login_data.csv', 'r')
+        file = open(r'../Datas/login_data.csv', 'r')
         csv_data = csv.reader(file)
         cls.data = [rows for rows in csv_data]
         file.close()
 
         cls.driver = webdriver.Chrome()
-        cls.url = 'http://localhost:4466/wordpress/wp-login.php'
+        cls.url = '******************************'
         cls.loginPage = LoginPage(cls.driver, cls.url)
         cls.loginPage.open_url()
 
