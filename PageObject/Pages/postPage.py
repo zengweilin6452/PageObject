@@ -39,13 +39,4 @@ class PostPage(BasePage):
         return self.find(self.article_title_loc).text
 
 
-if __name__=='__main__':
-    from selenium import webdriver
-    wd=webdriver.Chrome()
-    url="http://localhost:4466/wordpress/wp-admin/post-new.php"
-    postpage=PostPage(wd,url)
-    postpage.open_page()
-    postpage.input_title('hello')
-    postpage.input_article('hello world')
-    postpage.click_btn()
-    postpage.quit()
+
