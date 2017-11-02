@@ -17,13 +17,13 @@ import csv
 class TestPost(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        file = open(r"E:/python/PageObject/Datas/post_data.csv", 'r')
+        file = open(r"../Datas/post_data.csv", 'r')
         csv_data = csv.reader(file)
         cls.data = [rows for rows in csv_data]
         file.close()
 
         cls.driver = webdriver.Chrome()
-        cls.base_url = r"http://localhost:4466/wordpress/wp-admin"
+        cls.base_url = r"http://**********************"
         cls.postPage = PostPage(cls.driver, cls.base_url)
         cls.postPage.open_page()
 
